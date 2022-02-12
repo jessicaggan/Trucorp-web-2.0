@@ -1,6 +1,6 @@
 <?php
 
-$conn = new mysqli("127.20.0.3","root","haloapakabar","trucorp");
+$conn = new mysqli("172.20.0.3","root","haloapakabar","trucorp");
 if(!$conn){
     echo "Cannot connect to MySQL";
     exit;
